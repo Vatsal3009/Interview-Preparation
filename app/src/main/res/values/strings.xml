@@ -1,0 +1,391 @@
+<resources>
+    <string name="app_name">Interview Questions and Answer</string>
+
+    <string name="App_ID">ca-app-pub-7268025926293465~4923687297</string>
+    <string name="Interstitial">ca-app-pub-7268025926293465/3594010285</string>
+    <string name="banner">ca-app-pub-7268025926293465/4907091952</string>
+   <!-- <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
+<string name="Interstitial">ca-app-pub-3940256099942544/1033173712</string>
+<string name="App_ID">ca-app-pub-3940256099942544~3347511713</string>-->
+    <string-array name="title_resep">
+        <item>Tell me a little about yourself.</item>
+        <item>What are your biggest weaknesses?</item>
+        <item>What are your biggest strengths?</item>
+        <item>Where do you see yourself in five years ?</item>
+        <item>Out of all the other candidates, why should we hire you ?</item>
+        <item>How did you learn about the opening ?</item>
+        <item>Why do you want this job ?</item>
+        <item>What do you consider to be your biggest professional achievement ?</item>
+        <item>Tell me about the last time a co-worker or customer got angry with you. What happened ?</item>
+        <item>Describe your dream job.</item>
+        <item>Why do you want to leave your current job ?</item>
+        <item>What kind of work environment do you like best ?</item>
+        <item>Tell me about the toughest decision you had to make in the last six months.</item>
+        <item>What is your leadership style ?</item>
+        <item>Tell me about a time you disagreed with a decision. What did you do ?</item>
+        <item>Tell me how you think other people would describe you.</item>
+        <item>What can we expect from you in your first three months ?</item>
+        <item>What do you like to do outside of work ?</item>
+        <item>What was your salary in your last job ?</item>
+        <item>What questions do you have for me ?</item>
+        <item>What do you expect me to accomplish in the first 90 days ?</item>
+        <item>If you were to rank them, what are the three traits your top performers have in common ?</item>
+        <item>What really drives results in this job?</item>
+        <item>What are the company is highest-priority goals this year, and how would my role contribute ?</item>
+        <item>What percentage of employees was brought in by current employees ?</item>
+        <item>What do you plan to do if..?</item>
+        <item>Why do you want to work in this industry?</item>
+        <item>What do you think of your previous boss?</item>
+        <item>What salary are you looking for? </item>
+        <item>Why should I hire you? </item>
+        <item>What is your greatest failure, and what did you learn from it?  </item>
+        <item>How do you explain your gap in employment? </item>
+        <item>When were you most satisfied in your job? </item>
+        <item>What did you like least about your last job?</item>
+        <item>Describe a time when you did not get along with a coworker.</item>
+        <item>What motivates you?</item>
+        <item>How would your friends describe you? </item>
+
+    </string-array>
+
+    <string-array name="detail_resep">
+
+        <item>If you are the interviewer, there is a lot you should already know  The candidates resume and cover letter should tell you plenty, and LinkedIn and Twitter and Facebook and Google can tell you more.
+            \n\nThe goal of an interview is to determine whether the candidate will be outstanding in the job, and that means evaluating the skills and attitude required for that job.
+            \n\nDoes she need to be an empathetic leader? Ask about that.
+            \n\nDoes she need to take your company public? Ask about that.
+            \n\nIf you are the candidate, talk about why you took certain jobs.
+            \n\nExplain why you left.\n\nExplain why you chose a certain school.
+            \n\nShare why you decided to go to grad school.\n\nDiscuss why you took a year off to backpack through Europe, and what you got out of the experience.\n\n
+            When you answer this question, connect the dots on your resume so the interviewer understands not just what you have done, but also why.\n\n</item>
+        <item>
+            Every candidate knows how to answer this question Just pick a theoretical weakness and magically transform that flaw into a strength in disguise
+            For example My biggest weakness is getting so absorbed in my work that I lose all track of time.
+            \n\nEvery day I look up and realize everyone has gone home I know I should be more aware of the clock, but when I love what I am doing I just cannot think of anything else.
+            \n\nSo your biggest weakness is that you will put in more hours than everyone else? Great..
+            \n\nA better approach is to choose an actual weakness, but one you are working to improve.
+            \n\nShare what you are doing to overcome that weakness.
+            \n\nNo one is perfect, but showing you are willing to honestly self-assess and then seek ways to improve comes pretty darned close.
+            \n\n
+        </item>
+        <item>
+I am not sure why interviewers ask this question; your resume and experience should make your strengths readily apparent.
+            \n\nEven so, if you are asked, provide a sharp, on-point answer.
+            \n\nBe clear and precise.
+            \n\nIf you are a great problem solver, do not just say that: Provide a few examples, pertinent to the opening, that prove you are a great problem solver.
+            \n\nIf you are an emotionally intelligent leader, do not just say that: Provide a few examples that prove you know how to answer the unasked question.
+            \n\nIn short, do not just claim to have certain attributes - prove you have those attributes.
+            \n\n</item>
+        <item>
+            Answers to this question go one of two basic ways.
+            \n\nCandidates try to show their incredible ambition (because that iswhat they think you want) by providing an extremely optimistic answer I want your job! Or they try to show their humility (because that iswhat they think you want) by providing a meek, self-deprecating answer There are so many talented people here.
+            \n\nI just want to do a great job and see where my talents take me.
+            \n\nIn either case you learn nothing, other than possibly how well candidates can sell themselves.
+            \n\nFor interviewers, here is a better question What business would you love to start? That question applies to any organization, because every employee at every company should have an entrepreneurial mind-set.
+            \n\nThe business a candidate would love to start tells you about her hopes and dreams, her interests and passions, the work she likes to do, the people she likes to work with..
+            \n\nso just sit back and listen.
+            \n\n
+</item>
+        <item>
+            Since a candidate cannot compare himself with people he does not know, all he can do is describe his incredible passion and desire and commitment and .. well, basically beg for the job.
+            \n\n(Way too many interviewers ask the question and then sit back, arms folded, as if to say, Go ahead. I am listening. Try to convince me.)
+            \n\nAnd you learn nothing of substance.
+            \n\nHere is a better question What do you feel I need to know that we have not discussed ? Or even If you could get a do - over on one of my questions, how would you answer it now ? Rarely do candidates come to the end of an interview feeling they have done their best.
+            \n\nMaybe the conversation went in an unexpected direction.
+            \n\nMaybe the interviewer focused on one aspect of their skills and totally ignored other key attributes.
+            \n\nOr maybe candidates started the interview nervous and hesitant, and now wish they could go back and better describe their qualifications and experience.
+            \n\nPlus, think of it this way Your goal as an interviewer is to learn as much as you possibly can about every candidate, so do not you want to give them the chance to ensure you do ? Just make sure to turn this part of the interview into a conversation, not a soliloquy.
+            \n\ndo not just passively listen and then say, Thanks.
+            \n\nwe will be in touch.\n\nAsk follow - up questions.
+            \n\nAsk for examples.
+            \n\nAnd of course if you are asked this question ..
+            \n\nuse it as a chance to highlight things you have not been able to touch on.
+            \n\n
+
+</item>
+        <item>
+Job boards, general postings, online listings, job fairs ..
+            \n\nmost people find their first few jobs that way, so that is certainly not a red flag.
+            \n\nBut a candidate who continues to find each successive job from general postings probably has not figured out what he or she wants to do - and where he or she would like to do it.
+            \n\nHe or she is just looking for a job often, any job.
+            \n\nSo do not just explain how you heard about the opening.
+            \n\nShow that you heard about the job through a colleague, a current employer, by following the company .. show that you know about the job because you want to work there.
+            \n\nEmployers do not want to hire people who just want a job they want to hire people who want a job with their company.
+            \n\n
+
+
+
+
+</item>
+        <item>
+Now go deeper.
+            \n\nDo not just talk about why the company would be great to work for talk about how the position is a perfect fit for what you hope to accomplish, both short-term and long-term.
+            \n\nAnd if you do not know why the position is a perfect fit..look somewhere else.
+            \n\nLife is too short.
+            \n\n</item>
+        <item>
+            Here is an interview question that definitely requires an answer relevant to the job.
+            \n\nIf you say your biggest achievement was improving throughput by 18 percent in six months but you are interviewing for a leadership role in human resources ..
+            \n\nthat answer is interesting but ultimately irrelevant.
+            \n\nInstead, talk about an underperforming employee you rescued, or how you overcame infighting between departments, or how so many of your direct reports have been promoted..
+            \n\nThe goal is to share achievements that let the interviewer imagine you in the position - and see you succeeding.\n\n
+
+
+</item>
+        <item>
+Conflict is inevitable when a company works hard to get things done.
+            \n\nMistakes happen.
+            \n\nSure, strengths come to the fore, but weaknesses also rear their heads.
+            \n\nAnd that is OK.\n\nNo one is perfect.
+            \n\nBut a person who tends to push the blame - and the responsibility for rectifying the situation - onto someone else is a candidate to avoid.
+            \n\nHiring managers would much rather choose candidates who focus not on blame but on addressing and fixing the problem.
+            \n\nEvery business needs employees who willingly admit when they are wrong, step up to take ownership for fixing the problem, and, most important, learn from the experience.
+            \n\n
+
+</item>
+        <item>
+            Three words describe how you should answer this question relevance, relevance, relevance.
+            /n/nBut that does not  mean you have to make up an answer.
+            /n/nYou can learn something from every job.
+            /n/nYou can develop skills in every job.
+            /n/nWork backward Identify things about the job you are interviewing for that will help you if you do land your dream job someday, and then describe how those things apply to what you hope to someday do.
+            /n/nAnd do not be afraid to admit that you might someday move on, whether to join another company or - better - to start your own business.
+            /n/nEmployers no longer expect forever employees./n/n
+
+</item>
+        <item>
+            Lets start with what you should not say (or, if you are the interviewer, what are definite red flags).
+            /n/ndo not talk about how your boss is difficult. do not talk about how you cannot get along with other employees.
+            /n/ndo not bad-mouth your company.
+            /n/nInstead, focus on the positives a move will bring.
+            /n/nTalk about what you want to achieve.
+            /n/nTalk about what you want to learn.
+            /n/nTalk about ways you want to grow, about things you want to accomplish; explain how a move will be great for you and for your new company.
+            /n/nComplaining about your current employer is a little like people who gossip If you are willing to speak badly of someone else, you will probably do the same to me.
+            /n/n
+
+</item>
+        <item>
+Maybe you love working alone..
+            \n\nbut if the job you are interviewing for is in a call center, that answer will do you no good.
+            \n\nSo take a step back and think about the job you are applying for and the company is culture (because every company has one, whether intentional or unintentional).
+            \n\nIf a flexible schedule is important to you, but the company does not offer one, focus on something else.
+            \n\nIf you like constant direction and support and the company expects employees to self-manage, focus on something else.
+            \n\nFind ways to highlight how the company is environment will work well for you - and if you cannot find ways, do not take the job, because you will be miserable.
+            \n\n
+</item>
+        <item>
+            The goal of this question is to evaluate the candidate is reasoning ability, problem-solving skills, judgment, and possibly even willingness to take intelligent risks.
+            \n\nHaving no answer is a definite warning sign.
+            \n\nEveryone makes tough decisions, regardless of their position.
+            \n\nMy daughter worked part-time as a server at a local restaurant and made difficult decisions all the time - like the best way to deal with a regular customer whose behavior constituted borderline harassment.
+            \n\nA good answer proves you can make a difficult analytical or reasoning-based decision - for example, wading through reams of data to determine the best solution to a problem.
+            \n\nA great answer proves you can make a difficult interpersonal decision, or better yet a difficult data-driven decision that includes interpersonal considerations and ramifications.
+            \n\nMaking decisions based on data is important, but almost every decision has an impact on people as well.
+            \n\nThe best candidates naturally weigh all sides of an issue, not just the business or human side exclusively.
+            \n\n
+        </item>
+        <item>
+            This is a tough question to answer without dipping into platitudes.
+            \n\nTry sharing leadership examples instead.
+            \n\nSay, The best way for me to answer that is to give you a few examples of leadership challenges I have faced, and then share situations where you dealt with a problem, motivated a team, worked through a crisis.
+            \n\nExplain what you did and that will give the interviewer a great sense of how you lead.
+            \n\nAnd, of course, it lets you highlight a few of your successes.
+            \n\n
+
+
+
+</item>
+        <item>
+            No one agrees with every decision.
+            \n\nDisagreements are fine; It is what you do when you disagree that matters.
+            \n\n(We all know people who love to have the meeting after the meeting, where they have supported a decision in the meeting but they then go out and undermine it.) Show that you were professional.\n\nShow that you raised your concerns in a productive way.\n\nIf you have an example that proves you can effect change, great - and if you do not, show that you can support a decision even though you think It is wrong (as long as It is not unethical, immoral, etc.)
+            \n\nEvery company wants employees willing to be honest and forthright, to share concerns and issues .. but to also get behind a decision and support it as if they agreed, even if they did not.
+            \n\n
+</item>
+        <item>
+            I hate this question.\n\nIt is a total throwaway.
+            \n\nBut I did ask it once, and got an answer I really liked.
+            \n\nI think people would say that what you see is what you get, the candidate said.
+            \n\nIf I say I will do something, I do it.\n\nIf I say I will help, I help. I am not sure that everyone likes me, but they all know they can count on what I say and how hard I work.
+            \n\nCannot beat that.\n\n
+</item>
+        <item>
+Ideally the answer to this should come from the employer They should have plans and expectations for you.
+            \n\nBut if you are asked, use this general framework..
+            \n\n
+
+    You will work hard to determine how your job creates value - you would not just stay busy, You will stay busy doing the right things.\n\n
+    You will learn how to serve all your constituents - your boss, your employees, your peers, your customers, and your suppliers and vendors.\n\n
+    You will focus on doing what you do best - You will be hired because you bring certain skills, and You will apply those skills to make things happen.\n\n
+    You will make a difference - with customers, with other employees, to bring enthusiasm and focus and a sense of commitment and teamwork.
+            \n\nThen just layer in specifics that are applicable to you and the job.\n\n
+</item>
+        <item>Many companies feel cultural fit is extremely important, and they use outside interests as a way to determine how you will fit into a team.
+            \n\nEven so, do not be tempted to fib and claim to enjoy hobbies you do not.
+            \n\nFocus on activities that indicate some sort of growth skills you are trying to learn, goals you are trying to accomplish.
+            \n\nWeave those in with personal details.
+            \n\nFor example, I am raising a family, so a lot of my time is focused on that, but I am using my commute time to learn Spanish.\n\n</item>
+        <item>
+This is a tough one. You want to be open and honest, but frankly, some companies ask the question as the opening move in salary negotiations.
+            \n\nTry an approach recommended by Liz Ryan.
+            \n\nWhen asked, say, I amI am focusing on jobs in the 50K range.
+            \n\nIs this position in that range?I am (Frankly, you should already know - but this is a good way to deflect.) Maybe the interviewer will answer; maybe she would not.
+            \n\nIf she presses you for an answer, you will have to decide whether you want to share or demur.
+            \n\nUltimately your answer would not matter too much, because you will either accept the salary offered or you would not, depending on what you think is fair.
+            \n\n
+
+</item>
+        <item>
+
+Do not waste this opportunity.
+            \n\nAsk smart questions, not just as a way to show you are a great candidate but also to see if the company is a good fit for you - after all, you are being interviewed, but you are also interviewing the company.
+            \n\n
+Here goes..
+            \n\n
+</item>
+        <item>
+
+If you were not asked this question, ask it yourself.
+            \n\nWhy? Great candidates want to hit the ground running.
+            \n\nThey Do not want to spend weeks or months I amgetting to know the organization.
+            \n\nI am They Do not want to spend huge chunks of time in orientation, in training, or in the futile pursuit of getting their feet wet.
+            \n\nThey want to make a difference - and they want to make that difference right now.\n\n
+
+</item>
+        <item>
+Great candidates also want to be great employees.
+            \n\nThey know every organization is different - and so are the key qualities of top performers in those organizations.
+            \n\nMaybe your top performers work longer hours.
+            \n\nMaybe creativity is more important than methodology.
+            \n\nMaybe constantly landing new customers in new markets is more important than building long-term customer relationships.
+            \n\nMaybe the key is a willingness to spend the same amount of time educating an entry-level customer as helping an enthusiast who wants high-end equipment.
+            \n\nGreat candidates want to know, because \n(1) they want to know if they will fit in, \n(2) if they do fit in, they want to know how they can be a top performer.
+            \n\n
+
+</item>
+        <item>
+Employees are investments, and you expect every employee to generate a positive return on his or her salary.
+            \n\n(Otherwise why do you have them on the payroll?)In every job some activities make a bigger difference than others.
+            \n\nYou need your HR team to fill job openings, but what you really want is for them to find the right candidates, because that results in higher retention rates, lower training costs, and better overall productivity.
+            \n\nYou need your service techs to perform effective repairs, but what you really want is for those techs to identify ways to solve problems and provide other benefits - in short, to build customer relationships and even generate additional sales.
+            \n\nGreat candidates want to know what truly makes a difference and drives results, because they know helping the company succeed means they will succeed as well.\n\n
+
+</item>
+        <item>
+Is the job the candidate will fill important? Does that job matter?\n\n
+Great candidates want a job with meaning, with a larger purpose - and they want to work with people who approach their jobs the same way.\n\n
+
+Otherwise a job is just a job.\n\n
+
+</item>
+        <item>
+Employees who love their jobs naturally recommend their company to their friends and peers.
+            \n\nThe same is true for people in leadership positions - people naturally try to bring on board talented people they previously worked with.
+            \n\nThey have built relationships, developed trust, and shown a level of competence that made someone go out of their way to follow them to a new organization.
+            \n\nAnd all of that speaks incredibly well to the quality of the workplace and the culture.\n\n
+</item>
+        <item>
+Every business faces a major challenge technological changes, competitors entering the market, shifting economic trends.
+            \n\nThere is rarely one of Warren Buffetts moats protecting a small business.
+            \n\nSo while some candidates may see your company as a stepping-stone, they still hope for growth and advancement.
+            \n\nIf they do eventually leave, they want it to be on their terms, not because you were forced out of business.
+            \n\nSay I am interviewing for a position at your ski shop.
+            \n\nAnother store is opening less than a mile away How do you plan to deal with the competition? Or you run a poultry farm (a huge industry in my area) What will you do to deal with rising feed costs? Great candidates do not just want to know what you think they want to know what you plan to do - and how they will fit into those plans.
+            \n\n
+
+
+
+</item>
+
+        <item>Bad answer:
+\n\nI love to shop. Even as a kid, I spent hours flipping through catalogues.
+
+\n\nDo not just say you like it. Anyone can do that. Focus instead on your history with that particular industry, and if you can, tell a success story.
+
+\n\nGood answer:
+\n\nI have always loved shopping, but my interest in retail marketing really started when I worked at a neighborhood boutique. I knew our clothes were amazing, but that we were not marketing them properly. So I worked with management to come up with a marketing strategy that increased our sales by 25% in a year. It was great to be able to contribute positively to an industry I feel so passionate about, and to help promote a product I really believed in. </item>
+
+        <item>Bad answer:
+\n\nHe was completely incompetent, and a nightmare to work with, which is why I’ve moved on
+
+\n\nRemember: if you get the job, the person interviewing you will some day be your previous boss. The last thing they want is to hire someone who they know is going to badmouth them some day. Instead of trashing your former employer, stay positive, and focus on what you learned from him.
+
+\n\nGood answer:
+\n\nMy last boss taught me the importance of time management – he didn’t pull any punches, and was extremely deadline-driven. His no-nonsense attitude pushed me to work harder, and to meet deadlines I never even thought were possible.</item>
+        <item>Bad answer:
+\n\nIn my last job I earned $35,000 – so, now I am looking for $40,000
+
+\n\nIf you can avoid it, do not give an exact number. The first person to name a price in a salary negotiation loses. Instead, re-iterate your commitment to the job itself. If you have to, give a broad range based on research you’ve conducted on that particular role, in your particular city.
+
+\n\nGood answer:
+\n\nI am more interested in the role itself than the pay. That said, I do expect to be paid the appropriate range for this role, based on my five years of experience. I also think a fair salary would bear in mind the high cost of living here in New York City
+</item>
+        <item>
+Bad answer:
+\n\nI am the best candidate for the role.
+
+\n\nA good answer will reiterate your qualifications, and will highlight what makes you unique.
+
+\n\nGood answer:
+\n\nI have been an Executive Assistant for the past ten years – my boss has said time and time again that without me, the organization would fall apart. I have also taken the time to educate myself on some of the software I regularly use (but did not really understand the ins and outs of). I am an Excel wiz now, which means I can work faster, and take over some of what my boss would traditionally have had to do himself. What is good enough for most people is never really good enough for me.
+</item>
+        <item>
+Bad answer:
+\n\I never finished law school – and everything that is happened since has taught me that giving up, just because the going gets tough, is a huge mistake.
+
+\n\nYou do not want to actually highlight a major regret – especially one that exposes an overall dissatisfaction with your life. Instead, focus on a smaller, but significant, mishap, and how it has made you a better professional.
+
+\n\nGood answer:
+\n\nWhen I was in college, I took an art class to supplement my curriculum. I did not take it very seriously, and assumed that, compared to my Engineering classes, it would be a walk in the park. My failing grades at midterm showed me otherwise. I had even jeopardized my scholarship status. I knew I had to get my act together. I spent the rest of the semester making up for it, ended up getting a decent grade in the class. I learned that no matter what I am doing, I should strive to do it to the best of my ability. Otherwise, it is not worth doing at all.
+</item>
+        <item>
+Bad answer:
+\n\nI was so tired of working, and I needed a break,” or “I just can’t find a job.
+
+\n\nEmployment gaps are always tough to explain. You do not want to come across as lazy or unhireable. Find a way to make your extended unemployment seem like a choice you made, based on the right reasons.
+\n\nGood answer:
+\n\nMy work is important to me, so I would not be satisfied with any old job. Instead of rushing to accept the first thing that comes my way, I am taking my time and being selective to make sure my next role is the right one.
+</item>
+        <item>
+Bad answer:
+\n\nI was most satisfied when I did well, and got praised for my work.
+
+\n\nDo not give vague answers. Instead, think about something you did well – and enjoyed –that will be relevant at this new job. This is an opportunity for you to share your interests, prove that you are a great fit for the job and showcase your enthusiasm.
+\n\nGood answer:
+\n\nI am a people person. I was always happiest – and most satisfied – when I was interacting with customers, making sure I was able to meet their needs and giving them the best possible customer experience. It was my favorite part of the job, and it showed – I was rated as Good or Excellent 95% of the time. Part of the reason I am interested in this job is that I know I had have even more interaction with customers, on an even more critical level.
+</item>
+        <item>
+Bad answer:
+\n\nA lack of stability. I felt like the place could collapse around me at any time.
+
+\n\nTry and stay away from anything that draws on the politics, culture or financial health of your previous employer. No matter how true it might be, comments like these will be construed as too negative. Also, you do not want to focus on a function that might be your responsibility in the next role. So think of something you disliked in your last job, but that you know for sure would not be part of this new role.
+\n\nGood answer:
+\n\nThere was nothing about my last job that I hated, but I guess there were some things I liked less than others. My previous role involved traveling at least twice a month. While I do love to travel, twice a month was a little exhausting – I did not like spending quite so much time out of the office. I am happy to see that this role involves a lot less travel.
+</item>
+        <item>
+Bad answer:
+\n\nI am easy to get along with, so I have never had any kind of discord with another coworker.
+
+\n\nInterviewers do not like these types of easy out answers. And besides, they know you are probably not telling the truth. Think of a relatively benign (but significant) instance, and spin it to be a positive learning experience.
+\n\nGood answer:
+\n\nI used to lock heads with a fellow nurse in the INCU ward. We disagreed over a lot of things – from the care of patients to who got what shifts to how to speak with a childs family. Our personalities just did not mesh. After three months of arguing, I pulled her aside and asked her to lunch. At lunch, we talked about our differences and why we were not getting along. It turns out, it was all about communication. We communicated differently and once we knew that, we began to work well together. I really believe that talking a problem through with someone can help solve any issue.
+</item>
+        <item>
+Bad answer:
+\n\nDoing a good job and being rewarded for it.
+
+\n\nIt is not that this answer is wrong – it is just that it wastes an opportunity. This question is practically begging you to highlight your positive attributes. So do not give a vague, generic response – it tells them very little about you. Instead, try and use this question as an opportunity to give the interviewer some insight into your character, and use examples where possible.
+\n\nGood answer:
+\n\nI have always been motivated by the challenge of meeting a tough deadline – in my last role, I was responsible for a 100% success rate in terms of delivering our products on time and within budget. I know that this job is very fast-paced, and deadline-driven – I am more than up for the challenge. In fact, I thrive on it.
+</item>
+        <item>
+Bad answer:
+\n\nI am a really good listener.
+
+\n\nWhile being a good listener is a great personality trait, your employer probably does not care all that much. It is unlikely that they are hiring you to be a shoulder to cry on. You will want to keep your answer relevant to the job you are interviewing for – and as specific as possible. If you can, insert an example.
+\n\nGood answer:
+\n\nMy friends would probably say that I am extremely persistent – I have never been afraid to keep going back until I get what I want. When I worked as a program developer, recruiting keynote speakers for a major tech conference, I got one rejection after another – this was just the nature of the job. But I really wanted the big players – so I would not take no for an answer. I kept going back to them every time there was a new company on board, or some new value proposition. Eventually, many of them actually said yes – the program turned out to be so great that we doubled our attendees from the year before. A lot of people might have given up after the first rejection, but it is just not in my nature. If I know something is possible, I have to keep trying until I get it.
+</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="22sp"
+        android:fontFamily="@font/two"
+        android:id="@+id/title_law"
+        android:layout_marginTop="5dp"
+        android:text="Basic Requirements For Any Interview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+
+    <View
+        app:layout_constraintTop_toBottomOf="@id/title_law"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#CCCC00"
+        android:id="@+id/view"
+        android:layout_below="@id/title_law"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="0dp"
+        android:layout_height="2dp">
+    </View>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toBottomOf="@id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@id/view"
+        android:textSize="18sp"
+        android:id="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="cdscvgsc"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/ffive"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#FFFFFF"
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text=" Ok " />
+</androidx.constraintlayout.widget.ConstraintLayout>
