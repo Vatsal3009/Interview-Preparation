@@ -10,7 +10,6 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener
 import com.google.android.gms.ads.initialization.InitializationStatus
 import android.content.Intent
-import com.vcdevelopmentworld.interview.AddQuestion
 import com.google.android.gms.ads.AdListener
 import androidx.core.app.NavUtils
 import com.vcdevelopmentworld.interview.MainActivity
@@ -47,6 +46,14 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), ResepListener {
         val title = resources.getStringArray(R.array.title_resep)
         adapter = ResepAdapter(title, this)
         binding.rc.setAdapter(adapter)
+
+        if (isInternetAvailable(this)) {
+            // Internet is available, proceed with your network request or action
+        } else {
+            // Internet is not available, show the custom dialog
+            showNoInternetDialog(this)
+        }
+
 
         binding.rateMe.setOnClickListener {
             val a = Intent(Intent.ACTION_SEND)
@@ -126,10 +133,16 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), ResepListener {
 
 
     override fun onClick(position: Int) {
-        val i = Intent(this, Details::class.java)
-        i.putExtra(Intent.EXTRA_TEXT, adapter!!.getJudul(position))
-        i.putExtra(POSITION, position)
-        startActivity(i)
+        if (isInternetAvailable(this)) {
+            val i = Intent(this, Details::class.java)
+            i.putExtra(Intent.EXTRA_TEXT, adapter!!.getJudul(position))
+            i.putExtra(POSITION, position)
+            startActivity(i)
+        } else {
+            // Internet is not available, show the custom dialog
+            showNoInternetDialog(this)
+        }
+
     }
 
     override fun getViewBinding(): ActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)

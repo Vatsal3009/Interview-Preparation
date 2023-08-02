@@ -23,6 +23,13 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
         setContentView(binding.root)
         initControl()
 
+        if (isInternetAvailable(this)) {
+            // Internet is available, proceed with your network request or action
+        } else {
+            // Internet is not available, show the custom dialog
+            showNoInternetDialog(this)
+        }
+
 
     }
 

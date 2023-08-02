@@ -9,7 +9,6 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener
 import com.google.android.gms.ads.initialization.InitializationStatus
 import android.content.Intent
-import com.vcdevelopmentworld.interview.AddQuestion
 import com.google.android.gms.ads.AdListener
 import androidx.core.app.NavUtils
 import com.vcdevelopmentworld.interview.MainActivity

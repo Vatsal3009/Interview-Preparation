@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Interview Questions and Answer</string>
 
-    <string name="App_ID">ca-app-pub-7268025926293465~4923687297</string>
-    <string name="Interstitial">ca-app-pub-7268025926293465/3594010285</string>
-    <string name="banner">ca-app-pub-7268025926293465/4907091952</string>
+
    <!-- <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
 <string name="Interstitial">ca-app-pub-3940256099942544/1033173712</string>
 <string name="App_ID">ca-app-pub-3940256099942544~3347511713</string>-->
@@ -388,4 +386,10 @@ Bad answer:
 \n\nMy friends would probably say that I am extremely persistent – I have never been afraid to keep going back until I get what I want. When I worked as a program developer, recruiting keynote speakers for a major tech conference, I got one rejection after another – this was just the nature of the job. But I really wanted the big players – so I would not take no for an answer. I kept going back to them every time there was a new company on board, or some new value proposition. Eventually, many of them actually said yes – the program turned out to be so great that we doubled our attendees from the year before. A lot of people might have given up after the first rejection, but it is just not in my nature. If I know something is possible, I have to keep trying until I get it.
 </item>
     </string-array>
+
+    <!--Test Ads-->
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/8691691433</string>
+
 </resources>
