@@ -28,10 +28,14 @@ import com.vcdevelopmentworld.interview.ResepAdapter.ResepHolder
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
+import android.view.Window
 import android.widget.Button
 import android.widget.ImageView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.vcdevelopmentworld.interview.databinding.ActivityMainBinding
+import com.vcdevelopmentworld.interview.databinding.CustomBinding
 
 class MainActivity : BaseActivity<ActivityMainBinding>(), ResepListener {
 
@@ -102,19 +106,30 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), ResepListener {
             startActivity(Intent.createChooser(a, "Share Using"))
         }
         binding.buttonShowCustomDialog.setOnClickListener { // custom dialog
-            val dialog = Dialog(this@MainActivity)
-            dialog.setContentView(R.layout.custom)
 
-            // set the custom dialog components - text, image and button
-            val title_law = dialog.findViewById<View>(R.id.title_law) as TextView
-            val text = dialog.findViewById<View>(R.id.text) as TextView
-            text.text =
-                "-  Multiple copies of resume, credentials and photos. \n- Dress well. \n-Punctuality. \n- Research the company and position. \n- How can you benefit them? \n- Recall your past achievements. \n- Any references? \n- Presence of mind. \n- Knowledge of what you have written in your resume. \n- Negotiation skills."
-            val dialogButton = dialog.findViewById<View>(R.id.dialogButtonOK) as Button
-            // if button is clicked, close the custom dialog
-            dialogButton.setOnClickListener { dialog.dismiss() }
-            dialog.setCanceledOnTouchOutside(false)
-            dialog.show()
+            val dialogueBinding = CustomBinding.inflate(layoutInflater)
+            val dialogue = BottomSheetDialog(this)
+            dialogueBinding.apply {
+
+
+                dialogButtonOK.setOnClickListener {
+                    dialogue.dismiss()
+                }
+                text.text =
+                    "-  Multiple copies of resume, credentials and photos. \n- Dress well. \n-Punctuality. \n- Research the company and position. \n- How can you benefit them? \n- Recall your past achievements. \n- Any references? \n- Presence of mind. \n- Knowledge of what you have written in your resume. \n- Negotiation skills."
+            }
+            dialogue.requestWindowFeature(Window.FEATURE_NO_TITLE)
+            dialogue.window?.setLayout(
+                ConstraintLayout.LayoutParams.MATCH_PARENT,
+                ConstraintLayout.LayoutParams.MATCH_PARENT
+            );
+            dialogue.window?.setBackgroundDrawableResource(R.color.transparent)
+            dialogue.setCanceledOnTouchOutside(false)
+            dialogue.behavior.isDraggable = false
+            dialogue.setContentView(dialogueBinding.root)
+            dialogue.show()
+
+
         }
         AppRate.with(this).setInstallDays(0)
             .setLaunchTimes(3)

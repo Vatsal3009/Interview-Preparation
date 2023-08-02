@@ -1,63 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffffff"
-    android:padding="10dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
 
     <androidx.appcompat.widget.AppCompatTextView
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="22sp"
-        android:fontFamily="@font/two"
         android:id="@+id/title_law"
-        android:layout_marginTop="5dp"
-        android:text="Basic Requirements For Any Interview"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="#000000" />
-
-    <View
-        app:layout_constraintTop_toBottomOf="@id/title_law"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/two"
+        android:text="Basic Requirements For Any Interview"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@id/dialogButtonOK"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:background="#CCCC00"
-        android:id="@+id/view"
-        android:layout_below="@id/title_law"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_width="0dp"
-        android:layout_height="2dp">
-    </View>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        app:layout_constraintTop_toBottomOf="@id/view"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_below="@id/view"
-        android:textSize="18sp"
         android:id="@+id/text"
-        android:layout_marginTop="10dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/ffive"
         android:text="cdscvgsc"
-        android:layout_marginBottom="10dp"
-        android:fontFamily="@font/ffive"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:background="@color/colorPrimaryDark"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textColor="#FFFFFF"
-        android:id="@+id/dialogButtonOK"
-        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_law"
+        tools:text="Let's start new day with new learning." />
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text"
-        android:text=" Ok " />
+        android:layout_marginEnd="20dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@id/title_law"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title_law"
+        app:srcCompat="@drawable/ic_close" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

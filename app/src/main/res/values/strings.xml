@@ -388,8 +388,12 @@ Bad answer:
     </string-array>
 
     <!--Test Ads-->
-    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+   <!-- <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
     <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial_id">ca-app-pub-3940256099942544/8691691433</string>
+--> <!--Live Ads-->
+    <string name="app_id">ca-app-pub-7225505172396987~5298650138</string>
+    <string name="banner_id">ca-app-pub-7225505172396987/4732454176</string>
+    <string name="interstitial_id">ca-app-pub-7225505172396987/3017985620</string>
 
 </resources>
